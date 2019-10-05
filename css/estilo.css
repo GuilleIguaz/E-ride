@@ -1,0 +1,280 @@
+/* estructura********************* */
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 600px;
+}
+body, footer p{
+    margin: 0 auto;
+}
+header, footer, .social div{
+    position: relative;
+}
+header{
+    padding: 2rem;
+}
+h1{
+    margin: 0 0 1rem 0;
+}
+h2{
+    width: 90%;
+}
+h4{
+    padding: 2rem;
+    margin: 0;
+}
+.map{
+    height: 100%;
+    width: 100%;
+}
+main{
+    position: relative;
+}
+.idioma, footer p, .social, i{
+    position: absolute;
+}
+.idioma{
+    right: 1rem;
+    top: 5rem;
+    height: 5rem;  
+}
+.idioma div{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1rem auto;  
+}
+ul{
+    padding: 0;
+}
+li{
+    width: 33.3%;
+    padding: 1rem 0.5rem;
+}
+li, .social div{
+    display: inline-block;
+}
+.text, footer{
+    padding: 1rem;
+}
+table, textarea, form{
+    width: 100%;
+}
+td{
+    padding: 1rem ;
+}
+td.esq{
+    width: 25%;
+    text-align: center;
+}
+td input{
+    width: 100%;
+}
+td input, textarea{
+    padding: 0.5rem;
+}
+textarea{
+    height: 10rem;
+}
+form{
+    padding: 1rem 0;
+}
+#boton, #botonhome{
+    padding: 0.7rem;
+    width: 60%;
+}
+footer{
+    height: 10rem;
+}
+footer p{
+    left: 50%;
+    transform: translate(-50%, 90%);
+}
+.social{
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+.social div{
+    width: 3rem;
+    height: 3rem;
+    margin: auto 0.5rem;
+}
+i{
+    left: 50%;
+    transform: translate(-50%, 25%);
+}
+/* tipografia********************* */
+body, textarea, #boton{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.comilla{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1, h2, nav{
+    font-family: 'Orbitron', sans-serif;
+}
+h1, #boton, #botonhome{
+    text-transform: uppercase;
+}
+h1{
+    line-height: 4rem;
+}
+li, #boton, #botonhome, .text a{
+    text-decoration: none;
+}
+/* color i estetica**************** */
+main{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.9), rgba(245, 246, 252, 0.7)), url("/img/cadenabici.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+.idioma .eng{
+    background-image: url("/img/gb3.jpg"); 
+}
+.idioma .esp{
+    background-image: url("/img/sapinnn.png");
+}
+.idioma .eng, .idioma .esp, .idioma .engdisabled, .idioma .espdisabled{
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+.idioma .engdisabled{
+    background-image: linear-gradient(to bottom, rgba(133, 133, 134, 0.7), rgba(133, 133, 134, 0.7)), url("/img/gb3.jpg");
+}
+.idioma .espdisabled{
+    background-image: linear-gradient(to bottom, rgba(133, 133, 134, 0.7), rgba(133, 133, 134, 0.7)), url("/img/sapinnn.png");
+}
+header{
+    background-color: rgba(8, 8, 94, 1);
+}
+#boton, #botonhome, footer, nav a:focus li, .blue{
+    background-color: #A2EF44;
+}
+.social div, .idioma div{
+    background-color: #fff;
+}
+nav{
+    background-color: rgb(154, 247, 219);
+    font-size: 0;
+}
+form{
+   background-color: #fff5e3;
+}
+#boton:focus, #boton:hover, #botonhome:hover, #botonhover:focus{
+    background-color: rgb(245, 181, 63, 1);
+}
+ul{
+    list-style: none;
+}
+li, td, footer, .blue, nav a:hover li{
+    color: rgba(8, 8, 94, 1);
+}
+h1, h2{
+    color: #A2EF44;
+}
+.map{
+    background-color: #A2EF44;
+}
+.text, #boton, #botonhome, h3{
+    color: rgb(110, 81, 25);
+}
+td input:focus, textarea:focus{
+    border: 2px orange solid;
+}
+td input, textarea{
+    border:2px #A2EF44 solid;
+}
+header, ul, .center, footer{
+    text-align: center;
+}
+nav a:hover li, li, #botonhome, #boton, .text a{
+    font-weight: bold;
+}
+.idioma div, .social div{
+    border-radius: 50%;
+}
+header{
+    line-height: 7rem;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    line-height: 2rem;
+}
+h4{
+    text-align: center;
+    font-size:2rem;
+    line-height: 4rem;
+    color: rgb(70, 90, 201);
+}
+li{
+    font-size: 1.2rem;
+}
+.text p{
+    line-height: 1.5rem;
+}
+footer{
+    line-height: 4rem;
+}
+#boton, #botonhome{
+    border-radius: 28px;
+    font-size: 20px;
+}
+/* elimina espacio************* */
+.cont{
+    text-align: center;
+    margin: 2rem 0;
+}
+.cont2{
+    text-align: center;
+    margin: 3rem 0;
+}
+/* ******************************** */
+main.error{
+    text-align: center;
+    background: #fff;
+}
+main.error div:nth-child(3){
+    width: 100%;
+    text-align: center;
+}
+h3{
+    font-size: 3rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+.comilla{
+    font-size: 3.5rem;
+    line-height: 0;
+}
+/* slider*************************** */
+.slider {
+	width: 100%;
+	margin: auto;
+    overflow: hidden;
+}
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+    animation: cambio 10s linear infinite;
+}
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+

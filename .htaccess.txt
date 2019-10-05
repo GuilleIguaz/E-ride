@@ -1,0 +1,1 @@
+ErrorDocument 404 /~alumne14/pag404.html

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta keywords="alquiler, electric, ride, electrico, patinete, bicicleta, bici, contacto, formulario, e-mail, correo">
+    <meta description="
+    Página de contacto. Formulario de contacto con Electric Ride vinculado a e-mail para problemas i sugerencias a disposición de los clientes">
+    <meta author="Guille Iguaz">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="css/estilo-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="icon" type="image/icon" href="img/bicycle-solid.png">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="idioma">
+            <a href="contact.html"><div class="eng"></div></a>
+            <div class="espdisabled"></div>
+        </div>
+        <h1>electric ride</h1>
+        <h2>Alquila tu bici o patinete eléctrico con nosotros</h2>
+    </header>
+    <nav>
+       <ul>
+           <a href="indexes.html"><li>Inicio</li></a>
+           <a href="e-ridees.html"><li>E-ride</li></a>
+           <li class="blue">Contacto</li>
+       </ul>
+    </nav>
+    <main>
+        <div class="text">
+            <p>Podemos ayudarte en alguna cosa más?</p>
+            <p>Te ofrecemos el siguiente formulario para que puedas redactarnos un mensaje detallado sobre tu problema o sugerencia.</p>
+            <p>Cuando lo recibamos, será registrado en nuestra base de datos y nos pondremos en contacto contigo lo antes posible.</p>
+        </div>
+        <form action="mailto:ferivan.electricbike@gmail.com?Subject=Electric Bike contacto" method="GET" >
+                <table>
+                    <tr>
+                        <td class="esq">Nombre:</td>
+                        <td><input type="text" name="nombre"></td>
+                    </tr>
+                    <tr>
+                        <td class="esq">Apellido:</td>
+                        <td><input type="text" name="lastname"></td>
+                    </tr>
+                    <tr>
+                        <td class="esq">E-mail:</td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+                    <tr >
+                        <!-- <td class="esq">Mensaje:</td> -->
+                        <td rowspan="4" colspan="2"><textarea placeholder="Escribe tu mensaje aquí"></textarea></td>
+                    </tr>
+                </table>
+                <div class="cont">
+                    <input type="submit" name="submit" id="boton" value="enviar">
+                </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;Electric Ride</p>
+        <div class="social">
+            <a href="#"><div><i class="fab fa-facebook-f fa-2x" style="color: rgb(122, 122, 243);"></i></div></a>
+            <a href="https://www.instagram.com/electricridebcn/" target="_blank"><div><i class="fab fa-instagram fa-2x" style="color: rgb(240, 116, 116);"></i></div></a>
+        </div>
+    </footer>
+</body>
+</html>
